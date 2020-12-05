@@ -18,7 +18,7 @@ Useful links :
 * https://www.instagram.com/sandeep_machiraju/
 
 ### Video / gif : 
-
+![](aiUi.gif)
 
 ## Upcoming : 
 Want to try virtual background , speech detection , and lot more tensor js libraries
