@@ -1,0 +1,22 @@
+
+
+<video
+style="display: none"
+#video
+width="640"
+height="480"
+autoplay
+[srcObject]="stream"
+></video>
+<canvas #canvas width="640" height="480"></canvas>
+<div class="example-container">
+  <h2>To do</h2>
+
+  <div
+    class="example-list"
+    >
+    <div class="example-box" [ngClass]="{'active':currentItem === i+1}" *ngFor="let item of todo;let i=index" >
+      <mat-checkbox [checked]="selectedItem[i+1]?selectedItem[i+1]:false"></mat-checkbox> {{i+1}} ) {{item}}
+    </div>
+  </div>
+</div>
